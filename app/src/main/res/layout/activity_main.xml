@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@android:color/holo_blue_dark"/>
+
+    <TextView
+        android:layout_width="397dp"
+        android:layout_height="62dp"
+        android:layout_margin="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@android:color/holo_blue_dark"
+        android:drawableStart="@drawable/ic_vector__12_"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:text="Add Buyers"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <ImageButton
+        android:id="@+id/btn"
+        android:layout_width="52dp"
+        android:layout_height="72dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_tick"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="20dp"
+        android:textColor="@color/black"
+        android:text="Organization Name"
+        android:layout_marginTop="100dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"/>
+
+    <EditText
+        android:id="@+id/etorganname"
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="120dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="20dp"
+        android:text="Customer Name"
+        android:layout_marginTop="200dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/black"/>
+
+    <EditText
+        android:id="@+id/etcustomer"
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="230dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="20dp"
+        android:text="Mobile Number"
+        android:layout_marginTop="270dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/black"/>
+
+    <EditText
+        android:id="@+id/etmobile"
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="45dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="20dp"
+        android:text="Email"
+        android:layout_marginTop="340dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/black"/>
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/black"
+        android:layout_height="45dp"
+        android:layout_marginTop="360dp"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="35dp"
+        android:textColor="@color/black"
+        android:text="Address"
+        android:layout_marginTop="400dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"/>
+
+    <EditText
+        android:id="@+id/etaddress"
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="45dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="430dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/black"/>
+
+
+    <EditText
+        android:id="@+id/etManu"
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="490dp"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="20dp"
+        android:text="TaxId"
+        android:layout_marginTop="530dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"/>
+
+    <EditText
+        android:id="@+id/ettaxid"
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="570dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="35dp"
+        android:text="Company Id"
+        android:layout_marginTop="625dp"
+        android:backgroundTint="@color/white"/>
+
+    <EditText
+        android:id="@+id/etcompany"
+        android:layout_width="300dp"
+        android:textColor="@color/black"
+        android:layout_height="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="655dp"
+        android:backgroundTint="@color/black" />
+
+
+</RelativeLayout>
